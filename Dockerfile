@@ -13,6 +13,7 @@ RUN npm ci
 COPY index.js ./
 COPY sequential-thinking-tool-schema.js ./
 COPY strategy-stages-mapping.json ./
+COPY semantic-routing-config.json ./
 
 # Make the index.js executable
 RUN chmod +x index.js
